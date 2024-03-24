@@ -68,7 +68,7 @@ order =[]
 clear_screen()
 
 # Launch the store and present a greeting to the customer
-print("Welcome to the Digital G food truck.")
+print("Welcome to the variety food truck.")
 
 # Customers may want to order multiple items, so let's create a continuous
 # loop
@@ -236,7 +236,8 @@ for item in order:
 # 11. Calculate the cost of the order using list comprehension
 # Multiply the price by quantity for each item in the order list, then sum()
 total_cost = sum([item["Price"] * item["Quantity"] for item in order])
+
+# print the price.
 print("-"*46)
 print(f"Total cost: ${total_cost}")
 print("\n"*3)
-# and print the prices.
