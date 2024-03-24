@@ -238,7 +238,7 @@ for item in order:
 
 # 11. Calculate the cost of the order using list comprehension
 # Requirement: List comprehension is used to calculate the total price of the order.
-total_cost = sum([item["Price"] * item["Quantity"] for item in order])
+total_cost = format(sum([item["Price"] * item["Quantity"] for item in order]), ".2f")
 
 # Requirement: The total price of the order is printed to the screen.
 print("-"*46)
