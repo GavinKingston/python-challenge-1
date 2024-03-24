@@ -61,7 +61,7 @@ menu = {
 
 # 1. Set up order list. Order list will store a list of dictionaries for
 # menu item name, item price, and quantity ordered
-# An order list is initialized.
+# Requirement: An order list is initialized.
 order =[]
 
 # Clear the screen for a cleaner user experience
@@ -70,8 +70,7 @@ clear_screen()
 # Launch the store and present a greeting to the customer
 print("Welcome to the variety food truck.")
 
-# Customers may want to order multiple items, so let's create a continuous
-# loop
+# Customers may want to order multiple items, so let's create a continuous loop
 place_order = True
 while place_order:
     
